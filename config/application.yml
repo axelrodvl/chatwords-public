@@ -1,0 +1,64 @@
+server:
+  port : 8885
+
+logging:
+  config: config/logback.xml
+  level:
+    root: INFO
+    #org.springframework.cache: TRACE
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/chatwords
+      auto-index-creation: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health
+
+amplitude:
+  # ChatWordsDev
+  token: SET_VALUE
+
+bot:
+  maintenanceMode: false
+
+  botPath: https://SET_VALUE:8443
+
+  name: chatwordsappbot
+  token: SET_VALUE
+  infoName: chatwordsappproductionbot
+  infoToken: SET_VALUE
+  infoChatId: SET_VALUE
+  reviewChatId: SET_VALUE
+
+yandex:
+  token: dict.1.1.SET_VALUE
+  # Идентификатор ключа:
+  apiKeyId: SET_VALUE
+  # Ваш секретный ключ:
+  apiKey: SET_VALUE
+
+quiz:
+  wordsCount: 5
+  variants: 4
+
+shutterstock:
+  token: v2/SET_VALUE
+
+---
+spring:
+  profiles: local
+
+bot:
+  maintenanceMode: false
+
+  name: chatwordsappdevbot
+  token: SET_VALUE
+  infoName: chatwordsappinfodevbot
+  infoToken: SET_VALUE
+  infoChatId: SET_VALUE
+  reviewChatId: SET_VALUE

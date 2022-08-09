@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>ChatWords</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        /*
+ * Globals
+ */
+
+
+        /* Custom default button */
+        .btn-secondary,
+        .btn-secondary:hover,
+        .btn-secondary:focus {
+            color: #333;
+            text-shadow: none; /* Prevent inheritance from `body` */
+        }
+
+
+        /*
+         * Base structure
+         */
+
+        body {
+            text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+            /*    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+        }
+
+        .cover-container {
+            max-width: 42em;
+        }
+
+
+        /*
+         * Header
+         */
+
+        .nav-masthead .nav-link {
+            padding: .25rem 0;
+            font-weight: 700;
+            color: rgba(255, 255, 255, .5);
+            background-color: transparent;
+            border-bottom: .25rem solid transparent;
+        }
+
+        .nav-masthead .nav-link:hover,
+        .nav-masthead .nav-link:focus {
+            border-bottom-color: rgba(255, 255, 255, .25);
+        }
+
+        .nav-masthead .nav-link + .nav-link {
+            margin-left: 1rem;
+        }
+
+        .nav-masthead .active {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+
+        .width-40 {
+            width: 40%;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-202566761-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-202566761-1');
+    </script>
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main class="px-3 mb-5">
+        <div style="width: 100%;">
+            <img height="180px" src="logo_transparent_cropped.png"/>
+        </div>
+
+        <h1>🇷🇺🇺🇸🇩🇪🇪🇸🇫🇷🇮🇹🇵🇹🇹🇷🇺🇦</h1>
+        <p class="lead">Чат-бот для изучения слов в&nbsp;Telegram</p>
+
+        <p class="lead">
+            <a href="https://t.me/chatwordsappbot" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Добавить
+                бота</a>
+        </p>
+
+        <p class="lead mt-5">Пополняйте словарный запас не покидая <i>chat</i>:</p>
+        <img width="300px" src="chat.png" class="mb-5"/>
+
+        <hr/>
+
+        <p class="lead mt-5 mb-0">🌍 <b>Переводчик</b></p>
+        <p class="mt-0">Фразы, предложения и текст переводятся целиком</p>
+
+        <p class="lead mb-0">📕 <b>Словарь</b></p>
+        <p class="mt-0">Подробный перевод и изучение новых слов</p>
+
+        <p class="lead mb-0">✏️ <b>Проверка орфографии</b></p>
+        <p class="mt-0 mb-5">Ошибки в орфографии исправляются автоматически</p>
+
+        <hr/>
+
+        <p class="lead mt-5">Просто переводите слова, а бот их заботливо сохранит в словарь для дальнейшего
+            изучения:</p>
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                <img src="telegram.png" class="mb-3 w-100"/>
+            </div>
+        </div>
+
+        <p class="lead mt-5">Повторите изученные слова в квизе:</p>
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                <img src="quiz.png" class="mb-3 w-100"/>
+            </div>
+        </div>
+
+        <p class="lead mt-3">Создавайте любое количество словарей на любых языках:</p>
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                <img src="dict.png" class="mb-3 w-100"/>
+            </div>
+        </div>
+
+        <p class="lead mt-3">Изучите 1000 самых популярных слов нового языка:</p>
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                <img src="1000words.png" class="mb-3 w-100"/>
+            </div>
+        </div>
+
+        <hr/>
+    </main>
+
+    <footer class="mt-auto pb-5 text-white-50">
+        <p class="lead text-white">Реализовано с помощью сервиса «API «Яндекс.Словарь»</p>
+
+        <p>Отзывы, замечания и предложения: <a href="mailto://vadim@axelrod.co" class="text-white">vadim@axelrod.co</a>
+        </p>
+        <p>Made by <a href="https://axelrod.co" class="text-white">axelrod.co</a></p>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "page": 1,
+  "per_page": 1,
+  "total_count": 141,
+  "search_id": "314b1db3-a20e-4e7f-a6c4-aeb8ad0ba0aa",
+  "data": [
+    {
+      "id": "1994344142",
+      "aspect": 0.6667,
+      "assets": {
+        "preview": {
+          "height": 450,
+          "url": "https://image.shutterstock.com/display_pic_with_logo/301131261/1994344142/stock-photo-a-vertical-shot-of-an-adorable-giraffe-on-background-of-tall-trees-1994344142.jpg",
+          "width": 300
+        },
+        "small_thumb": {
+          "height": 100,
+          "url": "https://thumb9.shutterstock.com/thumb_small/301131261/1994344142/stock-photo-a-vertical-shot-of-an-adorable-giraffe-on-background-of-tall-trees-1994344142.jpg",
+          "width": 67
+        },
+        "large_thumb": {
+          "height": 150,
+          "url": "https://thumb9.shutterstock.com/thumb_large/301131261/1994344142/stock-photo-a-vertical-shot-of-an-adorable-giraffe-on-background-of-tall-trees-1994344142.jpg",
+          "width": 100
+        },
+        "huge_thumb": {
+          "height": 260,
+          "url": "https://image.shutterstock.com/image-photo/vertical-shot-adorable-giraffe-on-260nw-1994344142.jpg",
+          "width": 173
+        },
+        "preview_1000": {
+          "url": "https://ak.picdn.net/shutterstock/photos/1994344142/watermark_1000/c74aac85c80a504c550c7afad87dfe1c/preview_1000-1994344142.jpg",
+          "width": 667,
+          "height": 1000
+        },
+        "preview_1500": {
+          "url": "https://image.shutterstock.com/z/stock-photo-a-vertical-shot-of-an-adorable-giraffe-on-background-of-tall-trees-1994344142.jpg",
+          "width": 1000,
+          "height": 1500
+        }
+      },
+      "contributor": {
+        "id": "301131261"
+      },
+      "description": "A vertical shot of an adorable giraffe on background of tall trees",
+      "image_type": "photo",
+      "has_model_release": false,
+      "media_type": "image"
+    }
+  ],
+  "spellcheck_info": {}
+}%

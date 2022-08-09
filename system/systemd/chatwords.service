@@ -1,0 +1,14 @@
+[Unit]
+Description=ChatWords
+After=syslog.target
+
+[Service]
+User=vadim
+ExecStart=/opt/chatwords/run.sh
+WorkingDirectory=/opt/chatwords
+Restart=always
+RestartSec=2
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
