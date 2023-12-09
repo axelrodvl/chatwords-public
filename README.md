@@ -1,21 +1,23 @@
-# ChatWords - Тренажер иностранных слов
+# ChatWords - Vocabulary-Building Telegram Bot
+Based on Yandex.Dictionary API.
+Translation support: 🇷🇺🇺🇸🇩🇪🇪🇸🇫🇷🇮🇹🇵🇹🇹🇷🇺🇦
 
-## Ссылки
-- Боты
-    - [Бот (PROD)](https://t.me/chatwordsappbot)
-    - [Бот (DEV)](https://t.me/chatwordsappdevbot)
-    - [Бот аналитики](https://t.me/chatwordsappproductionbot)
-- Ресурсы
+## Links
+- Bots
+    - [Bot (PROD)](https://t.me/chatwordsappbot)
+    - [Bot (DEV)](https://t.me/chatwordsappdevbot)
+    - [Analytics Bot](https://t.me/chatwordsappproductionbot)
+- Resources
     - [Yandex Cloud](https://console.cloud.yandex.ru)
     - [Grafana](Hidden)
     - [Amplitude](Hidden)
     - [Instagram](https://www.instagram.com/chatwords/)
     - [SonarQube](http://localhost:9000)
-- Переводы интерфейса
-    - [Реклама](Hidden)
-    - [Украинский](Hidden)
+- Translation
+    - [Ads](Hidden)
+    - [Ukrainian](Hidden)
 
-## Описание в Telegram
+## Telegram Bot Description
 ```
 🐈 ChatWords
 Словарь и переводчик: 🇷🇺🇺🇸🇩🇪🇪🇸🇫🇷🇮🇹🇵🇹🇹🇷🇺🇦
@@ -23,7 +25,7 @@
 ✉️ @axelrodvl
 ```
 
-## Материалы
+## Sources
 - https://www.wordfrequency.info/intro.asp
 - https://www.english-corpora.org/coca/
 - https://resources.ncelp.org/concern/resources/0c483j381?locale=en
