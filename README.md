@@ -1,5 +1,6 @@
 # ChatWords - Vocabulary-Building Telegram Bot
-Based on Yandex.Dictionary API.
+Based on [Yandex Dictionary API](https://yandex.com/dev/dictionary/)
+
 Translation support: 🇷🇺🇺🇸🇩🇪🇪🇸🇫🇷🇮🇹🇵🇹🇹🇷🇺🇦
 
 ## Links
